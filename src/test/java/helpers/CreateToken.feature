@@ -7,3 +7,4 @@ Scenario: token generation
     When method Post
     Then status 200
     * def authToken = response.user.token
+    Feature: Generate token
